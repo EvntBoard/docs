@@ -49,12 +49,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
+              label: 'Twitch',
+              href: 'https://twitch.tv/evandikt',
+            },
+            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/crnmfzvGT9',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/evntboard',
             },
           ],
         },
@@ -67,7 +71,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/evntboard/application',
             },
           ],
         },
