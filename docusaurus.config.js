@@ -21,7 +21,16 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {
+        //   to: 'blog/',
+        //   label: 'Blog',
+        //   position: 'left'
+        // },
+        {
+          to: 'download/',
+          label: 'Download',
+          position: 'left'
+        },
         {
           href: 'https://github.com/evntboard',
           label: 'GitHub',
@@ -36,12 +45,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Install',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Plugin',
+              to: 'docs/plugin/',
             },
           ],
         },

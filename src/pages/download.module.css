@@ -1,0 +1,20 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.tile {
+    text-align: center;
+    background-color: var(--ifm-color-primary);
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.tile img {
+    display: block;
+    padding: 8px;
+    margin: auto;
+}

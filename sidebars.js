@@ -1,6 +1,14 @@
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['install', 'reaction'],
-    Features: ['mdx'],
-  },
+  docs: [
+    {
+      type: 'category',
+      label: 'Getting started',
+      items: ['install', 'works'],
+    },
+    {
+      type: 'category',
+      label: 'API',
+      items: ['reaction', 'event'],
+    },
+  ],
 };

@@ -6,11 +6,4 @@ slug: /
 
 # How to install
 
-Go to [download](/download)
-
-
-:::important
-
-[OBS Websocket is required](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
-
-:::
+Just [download](/download) execute and that's all !! This is a portable software ...
