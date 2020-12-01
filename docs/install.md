@@ -1,9 +1,8 @@
 ---
 id: install
-title: Install
-slug: /
+title: Installation
 ---
 
-# How to install
+Just [download](/download) execute and that's all !!
 
-Just [download](/download) execute and that's all !! This is a portable software ...
+This is a portable software ...

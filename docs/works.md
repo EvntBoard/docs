@@ -1,6 +1,7 @@
 ---
 id: works
 title: How it works
+slug: /
 ---
 
 EvntBoard is an event-based software.
@@ -33,3 +34,7 @@ Same as Queue except that the queue is shared between triggers.
 ### Throttle lock
 
 Same as Throttle except that the execution state is shared between triggers
+
+## Workspace
+
+By default your workspace in on `USER/new-evntboard`

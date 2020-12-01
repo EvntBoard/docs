@@ -1,6 +1,6 @@
 module.exports = {
   title: 'EvntBoard',
-  tagline: 'Stream Deck on steroids',
+  tagline: 'Your stream controller',
   url: 'https://evntboard.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
