@@ -5,8 +5,7 @@ module.exports = {
       label: 'Getting started',
       items: [
         'works',
-        'install'
-
+        'install',
       ],
     },
     {
@@ -23,18 +22,32 @@ module.exports = {
               type: 'category',
               label: 'OBS',
               items: [
-                'plugin/obs/doc',
-                'plugin/obs/reaction',
-                'plugin/obs/event'
+                {
+                  type: 'doc',
+                  id: 'plugin/obs/doc'
+                }, {
+                  type: 'doc',
+                  id: 'plugin/obs/reaction'
+                }, {
+                  type: 'doc',
+                  id: 'plugin/obs/event'
+                }
               ],
             },
             {
               type: 'category',
               label: 'Twitch',
               items: [
-                'plugin/twitch/doc',
-                'plugin/twitch/reaction',
-                'plugin/twitch/event'
+                {
+                  type: 'doc',
+                  id: 'plugin/twitch/doc'
+                }, {
+                  type: 'doc',
+                  id: 'plugin/twitch/reaction'
+                }, {
+                  type: 'doc',
+                  id: 'plugin/twitch/event'
+                }
               ],
             }
           ],

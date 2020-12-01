@@ -30,23 +30,23 @@ function Home() {
               <div className={styles.tile}>
                 <img height={80} src={imgLogoWindows} alt='logo-windows' className={styles.logo} />
 
-                <div className='button button--secondary'>
+                <a className='button button--secondary' href='https://github.com/EvntBoard/application/releases/latest' target='_blank'>
                   Download for Windows
-                </div>
+                </a>
               </div>
             </div>
             <div className='col'>
               <div className={styles.tile}>
                 <img height={80} src={imgLogoApple} alt='logo-apple' className={styles.logo} />
-                <div className='button button--secondary'>
+                <a className='button button--secondary' href='https://github.com/EvntBoard/application/releases/latest' target='_blank'>
                   Download for Mac
-                </div>
+                </a>
               </div>
             </div>
             <div className='col'>
               <div className={styles.tile}>
                 <img height={80} src={imgLogoLinux} alt='logo-linux' className={styles.logo} />
-                <div className='button button--secondary'>
+                <a className='button button--secondary' href='https://github.com/EvntBoard/application/releases/latest' target='_blank'>
                   Download for Linux
                 </div>
               </div>

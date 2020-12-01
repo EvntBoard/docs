@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Your stream controller',
   url: 'https://evntboard.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'evandikt', // Usually your GitHub org/user name.
   projectName: 'evntboard', // Usually your repo name.
