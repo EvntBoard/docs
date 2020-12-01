@@ -48,7 +48,7 @@ function Home() {
                 <img height={80} src={imgLogoLinux} alt='logo-linux' className={styles.logo} />
                 <a className='button button--secondary' href='https://github.com/EvntBoard/application/releases/latest' target='_blank'>
                   Download for Linux
-                </div>
+                </a>
               </div>
             </div>
           </div>
