@@ -522,3 +522,19 @@ Fires when receiving a whisper from another user.
 | payload.user | string | Data of the event |
 | payload.message | string | Data of the event |
 | payload.msg | object | Data of the event |
+
+### twitch-channel-point-redeem
+
+Fires when a user redeems channel points.
+
+| Field  | Type | Description  |
+|---|---|---|
+| id  | string | Unique Event ID |
+| event  | string | Event type |
+| emittedAt  | Date | Date on which the event was emitted |
+| emitter  | string | Origin of the event |
+| payload  | object | Data of the event |
+| payload.user | string | user who claim point |
+| payload.title | string | Redemption title |
+| payload.message | string | Redemption message |
+| payload.msg | [PubSubRedemptionMessage](https://d-fischer.github.io/versions/4.3/twitch-pubsub-client/reference/classes/PubSubRedemptionMessage.html) | Data of the event |
